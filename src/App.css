@@ -1,0 +1,58 @@
+.app-container {
+    position: relative;
+    margin: 30px 5% 30px 5%;
+}
+
+.app-title {
+    text-align: center;
+}
+
+#app-table {
+    margin-top: 30px;
+}
+
+.user-role-group {
+    position: relative;
+}
+
+.table-column-group {
+    position: relative;
+    margin-top: 30px;
+}
+
+.app-button {
+    border: none;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.app-button.active {
+    opacity: 1;
+}
+
+.app-button.unclickable {
+    pointer-events: none;
+    background-color: grey;
+}
+
+.user-role-group .app-button {
+    background-color: #008CBA;
+}
+
+.table-column-group .app-button {
+    background-color: green;
+}
+
+.current-user {
+    position: absolute;
+    display: inline;
+    right: 0%;
+}
